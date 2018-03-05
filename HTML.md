@@ -179,9 +179,8 @@
     <!-- Recommended -->
     <script src="index.js"></script>
     ```
-
-
-
+    
+    
 
 ## Formatting rules :hammer_and_wrench:
 
@@ -254,6 +253,7 @@
 [1] https://internetingishard.com/html-and-css/semantic-html/#_=_
 
 :hammer_and_wrench: : Utilize your coding environment to help you.
+
 
 
 
