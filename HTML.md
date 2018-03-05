@@ -11,7 +11,7 @@
 
       ​
 
-2. Use HTML according to its purpose ([Semantically correct HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)).
+2. Use HTML according to its purpose ([Semantically correct HTML](https://www.w3schools.com/html/html5_semantic_elements.asp))^[1]^.
 
    Use elements for what they have been created for. For example, use heading elements  ```h1 to h6```  for headings, `p` elements for paragraphs, `a`elements for anchors, `nav` for navigation, `form` for form elements, etc.
 
@@ -36,7 +36,7 @@
 4. Do not omit optional tags.
 
    ```html
-   <!-- Not recommended -->
+   <!-- Valid in HTML5 specifications but not recommended for consistency reasons -->
    <ul>
        <li>foo
        <li>bar
@@ -51,7 +51,7 @@
 
    ​
 
-5. Do not explicitly close void elements
+5. Do not explicitly close [void elements](https://www.w3.org/TR/html5/syntax.html#void-elements).
 
    ```html
    <!-- Valid in HTML5 specifications but not recommended for consistency reasons -->
@@ -110,7 +110,7 @@
       		<li><a href="#">News</a></li>
       	</ul>
       </nav>
-      <!-- /Navigation-->
+      <!-- /Navigation -->
       ```
 
    2. Comment according to the file type.
@@ -242,6 +242,21 @@
 
 
 
-### Notes 
+
+---
+
+[1] https://internetingishard.com/html-and-css/semantic-html/#_=_
+
+---
+
+**References**
+
+https://google.github.io/styleguide/htmlcssguide.html
+
+https://github.com/springernature/frontend-playbook/blob/master/markup/house-style.md
+
+
+
+
 
 Utilize your coding environment and your browser to help you detect any invalidities.
