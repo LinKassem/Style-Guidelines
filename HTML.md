@@ -2,16 +2,17 @@
 
 ## Syntax and Semantics
 
-1. Write valid HTML code that follows the standards (Syntactically correct HTML). 
+1. Write valid HTML code that follows the [standards](https://www.w3.org/TR/2012/WD-html-markup-20120320/syntax.html) (Syntactically correct HTML). 
    1. Use HTML5 syntax, and make sure to place the ``<!DOCTYPE html>`` at the top of your html documents.
 
    2. Use the [UTF-8](https://www.w3.org/International/tutorials/tutorial-char-enc/) character encoding by placing ``<meta charset="utf-8">``  tag in the head of the HTML documents.
 
-   3. [Here](https://validator.w3.org/docs/errors.html) is a list of the common causes for having invalid HTML.
+   3. Avoid the [common causes](https://validator.w3.org/docs/errors.html) of having invalid HTML.
 
-      ​
 
-2. Use HTML according to its purpose ([Semantically correct HTML](https://www.w3schools.com/html/html5_semantic_elements.asp))^[1]^.
+   ​
+
+2. Use HTML according to its purpose ([Semantically correct HTML](https://www.w3schools.com/html/html5_semantic_elements.asp))<sup>[1](https://internetingishard.com/html-and-css/semantic-html/#_=_)<sup>.
 
    Use elements for what they have been created for. For example, use heading elements  ```h1 to h6```  for headings, `p` elements for paragraphs, `a`elements for anchors, `nav` for navigation, `form` for form elements, etc.
 
@@ -84,9 +85,11 @@
 
    ​
 
-7. Use only lowercase for HTML element names, attributes, attribute values.
+7. Use only lowercase for HTML element names, attributes, attributes values.
 
-   An Image will be placed here to clarify what are names, attributes and attribute values[HTML element diagram]
+   Do not leave space between the attributes and attributes values.
+
+   ![HTML element description](images/HTML element description.png)
 
    ```html
    <!-- Not recommended -->
@@ -179,11 +182,14 @@
 
 
 
-## Formatting rules
 
-1. Use 4 spaces for indentations.
+## Formatting rules :hammer_and_wrench:
+
+1. Use 4 spaces for indentations. 
 
 2. Remove trailing white spaces.
+
+3. Add blank lines to separate large or logical code blocks. However, make sure not to add blank lines without a reason.  
 
 3. Quotation marks
 
@@ -214,7 +220,7 @@
    </md-progress-circular>
    ```
 
-5. Use a new line for every block, list, or table element and indent child elements. This is done regardless of the styling or presentation of the elements.
+5. Use a new line for every [block](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements), list, or table element and indent child elements. This is done regardless of the styling or presentation of the elements.
 
    ```html
    <blockquote>
@@ -230,7 +236,7 @@
    </ul>
    ```
 
-6. Leave space before and after the comment text.
+7. Leave space before and after the comment text.
 
    ```html
    Bad
@@ -247,7 +253,9 @@
 
 [1] https://internetingishard.com/html-and-css/semantic-html/#_=_
 
----
+:hammer_and_wrench: : Utilize your coding environment to help you.
+
+
 
 **References**
 
@@ -255,8 +263,5 @@ https://google.github.io/styleguide/htmlcssguide.html
 
 https://github.com/springernature/frontend-playbook/blob/master/markup/house-style.md
 
+https://www.w3schools.com/html/html5_syntax.asp
 
-
-
-
-Utilize your coding environment and your browser to help you detect any invalidities.
