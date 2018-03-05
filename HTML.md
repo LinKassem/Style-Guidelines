@@ -89,7 +89,7 @@
 
    Do not leave space between the attributes and attributes values.
 
-   ![HTML element description](https://LinKassem.github.com/Style-Guidelines/images/html-element.png)
+   ![HTML element description](https://github.com/LinKassem/Style-Guidelines/blob/master/images/HTML-element.png)
 
    ```html
    <!-- Not recommended -->
