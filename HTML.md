@@ -117,6 +117,7 @@
       ```
 
    2. Comment according to the file type.
+      
 
       ```html
       Razor files .cshtml
@@ -125,7 +126,7 @@
       HTML files .html
       <!-- Comment -->
       ```
-
+      Note: In Razor views, you can use both ways to write your comment. However, the razor comments will not be parsed and thus not visible when debugging in the browser.
    ​
 
 9. Provide alternative contents for multimedia.
